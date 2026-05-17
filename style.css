@@ -1,0 +1,63 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+
+    /* Background Image */
+    background-image:url("kdu.jpeg");
+
+    /* Makes image cover entire screen */
+    background-size:cover;
+
+    /* Prevents repeating */
+    background-repeat:no-repeat;
+
+    /* Keeps image centered */
+    background-position:center;
+
+    /* Keeps image fixed while scrolling */
+    background-attachment:fixed;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+.navbar a:hover{
+    color:skyblue;
+}
+
+.main{
+    margin-top:80px;
+    padding:20px;
+
+    /* Optional dark transparent background for readability */
+    background:rgba(0,0,0,0.5);
+    border-radius:10px;
+    color:white;
+}
+
+h1{
+    color:white;
+}
+
+p{
+    color:#f1f1f1;
+    font-size:18px;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    background:skyblue;
+    color:white;
+    border-radius:5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0099cc;
+}
