@@ -3,7 +3,7 @@ body{
     font-family:Arial, sans-serif;
 
     /* Background Image */
-    background-image:url("kdu.jpeg");
+    background-image:url("C:\Users\AME\Downloads\kdu.jpeg");
 
     /* Makes image cover entire screen */
     background-size:cover;
@@ -51,8 +51,8 @@ p{
 button{
     padding:10px 20px;
     border:none;
-    background:skyblue;
-    color:white;
+    background:white;
+    color:black;
     border-radius:5px;
     font-size:16px;
     cursor:pointer;
